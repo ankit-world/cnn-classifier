@@ -1,0 +1,24 @@
+## Steps from begining to end
+1. create template.py file to create folder structure
+2. Update the requirements.txt file.
+3. Update code in setup.py file
+4. Write code in src/cnnclassifier/__init__.py file for settinh up logging function
+5. Create common.py file in utils folder in order to write frequent functions that will be frequently used in the code
+6. Go as per the workflow:
+    Update config.yaml
+        -Data Ingestion
+        -Prepare Base Model
+        -Prepare callbacks
+        - Training
+    Update secrets.yaml [Optional]
+    Update params.yaml
+    Update the entity
+    Update the configuration manager in src config
+    Update the components
+    Update the pipeline
+    Update the main.py
+7. Deployment(AWS)
+    -Build Docker Image of the source code
+    -Push your docker image to ECR
+    -Launch your EC2
+    -Launch your docker image into EC2

@@ -2,7 +2,7 @@
 
 ### Clone the repository
 ```
-https://github.com/ankit-world/cnnclassifier.git
+https://github.com/ankit-world/cnn-classifier.git
 ```
 
 ### Create Conda Environment
